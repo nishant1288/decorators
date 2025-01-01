@@ -1,0 +1,6 @@
+<h2>Child Component</h2>
+<div>
+    <ul>
+        <li *ngFor="let item of itemsArrChild; let i = index"> {{item}} <button (click)="deleteItemIndex(i)" >Delete</button></li>
+    </ul>
+</div>

@@ -1,0 +1,22 @@
+<h2>Child Component </h2>
+
+<div>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let data of childData">
+        <td>{{data.id}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.age}}</td>
+    </tr>
+</div>
+
+<div>
+    {{childData | json}}
+</div>
+
+<div>
+    <button (click)="parentEventEmit()" >Click Me!</button>
+</div>
