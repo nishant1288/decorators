@@ -12,6 +12,7 @@ import { ViewChildMainComponent } from './components/view-child-main/view-child-
 import { ContentChildComponent } from './content-child/content-child.component';
 import { ContentChildMainComponent } from './content-child-main/content-child-main.component';
 import { HighlightElementDirective } from './highlight-element.directive';
+import { ColorpickerComponent } from './components/colorpicker/colorpicker.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HighlightElementDirective } from './highlight-element.directive';
     ViewChildMainComponent,
     ContentChildComponent,
     ContentChildMainComponent,
-    HighlightElementDirective
+    HighlightElementDirective,
+    ColorpickerComponent
   ],
   imports: [
     BrowserModule,

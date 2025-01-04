@@ -4,6 +4,7 @@ import { InputDecorParentComponent } from './components/input-decor-parent/input
 import { ParentAssignmentComponent } from './components/parent-assignment/parent-assignment.component';
 import { ViewChildMainComponent } from './components/view-child-main/view-child-main.component';
 import { ContentChildMainComponent } from './content-child-main/content-child-main.component';
+import { ColorpickerComponent } from './components/colorpicker/colorpicker.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path : 'contentchild',
     component : ContentChildMainComponent
+  },
+  {
+    path : 'colorpicker',
+    component : ColorpickerComponent
   }
 ];
 
